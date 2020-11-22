@@ -1,4 +1,4 @@
-# Tizen Installer App
+# Tizen App Installer
 This app is an Android implementation of Samsung's 
 [Smart Development Bridge](https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testing-your-app/sdb) 
 (SDB) that is built for streamlined installation of apps and services to Samsung smart watches and other SDB-supported devices. 
