@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sdbupdateservice</string>
+    <string name="connection_successful">Connection Successful</string>
+    <string name="connect">Connect</string>
+    <string name="update">Update</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="welcome_to_the_nwatch_update_service">Welcome to the \nWatch Update Service</string>
+    <string name="ip_address">IP Address</string>
+    <string name="port_default_26101">Port (default: 26101)</string>
+</resources>
