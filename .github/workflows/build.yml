@@ -23,9 +23,12 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          api-level: 33
-          build-tools: 33.0.2
-          cmdline-tools-version: 8.0.1
+          cmdline-tools-version: '12.0'       # versión que sí existe
+          accept-android-sdk-licenses: true
+          packages: |
+            platform-tools
+            platforms;android-33
+            build-tools;33.0.2
 
       - name: Grant execute permission for Gradle
         run: chmod +x gradlew
