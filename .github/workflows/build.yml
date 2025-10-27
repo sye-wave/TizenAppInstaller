@@ -23,7 +23,7 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          cmdline-tools-version: '12.0'       # versión que sí existe
+          cmdline-tools-version: '12.0'
           accept-android-sdk-licenses: true
           packages: |
             platform-tools
